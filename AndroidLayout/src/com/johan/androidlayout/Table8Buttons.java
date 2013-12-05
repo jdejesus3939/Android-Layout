@@ -1,6 +1,5 @@
 package com.johan.androidlayout;
 
-import ctsit.johan.layoutassignment.R;
 import android.app.Activity;
 import android.os.Bundle;
 

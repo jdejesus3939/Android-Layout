@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="country_name">
+        <item>Australia</item>
+        <item>China</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Japan</item>
+        <item>USA</item>
+        <item>Country 1</item>
+        <item>Country 2</item>
+        <item>Country 3</item>
+        <item>Country 4</item>
+        <item>Country 5</item>
+        <item>Country 6</item>
+        <item>Country 7</item>
+        <item>Country 8</item>
+    </string-array>
+    <string-array name="listview_dummydata">
+        <item>ListView 1</item>
+        <item>ListView 2</item>
+        <item>ListView 3</item>
+        <item>ListView 4</item>
+        <item>ListView 5</item>
+        <item>ListView 6</item>
+        <item>ListView 7</item>
+        <item>ListView 8</item>
+        <item>ListView 9</item>
+        <item>ListView 10</item>
+        <item>ListView 11</item>
+        <item>ListView 12</item>
+        <item>ListView 13</item>
+        <item>ListView 14</item>
+        <item>ListView 15</item>
+        <item>ListView 16</item>
+        <item>ListView 17</item>
+        <item>ListView 18</item>
+        <item>ListView 19</item>
+        <item>ListView 20</item>
+    </string-array>
+    <string-array name="gridview_dummydata">
+        <item>GridView 1</item>
+        <item>GridView 2</item>
+        <item>GridView 3</item>
+        <item>GridView 4</item>
+        <item>GridView 5</item>
+        <item>GridView 6</item>
+        <item>GridView 7</item>
+        <item>GridView 8</item>
+        <item>GridView 9</item>
+        <item>GridView 10</item>
+        <item>GridView 11</item>
+        <item>GridView 12</item>
+        <item>GridView 13</item>
+        <item>GridView 14</item>
+        <item>GridView 15</item>
+        <item>GridView 16</item>
+        <item>GridView 17</item>
+        <item>GridView 18</item>
+        <item>GridView 19</item>
+        <item>GridView 20</item>
+    </string-array>
+
+</resources>

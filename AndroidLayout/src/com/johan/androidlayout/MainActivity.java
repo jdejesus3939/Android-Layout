@@ -1,6 +1,5 @@
 package com.johan.androidlayout;
 
-import ctsit.johan.layoutassignment.R;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -9,6 +8,8 @@ import android.content.Intent;
 
 public class MainActivity extends Activity {
 
+	Button gridviewbuttons;
+	Button listviewbuttons;
 	Button linear4buttons;
 	Button relative4buttons;
 	Button table4buttons;
@@ -17,12 +18,14 @@ public class MainActivity extends Activity {
 	Button relative8buttons;
 	Button table8buttons;
 	Button frame8buttons;
-
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
+		listviewbuttons = (Button) findViewById(R.id.listview);
+		gridviewbuttons = (Button) findViewById(R.id.gridview);
 		linear4buttons = (Button) findViewById(R.id.buttons4Linear);
 		relative4buttons = (Button) findViewById(R.id.buttons4Relative);
 		table4buttons = (Button) findViewById(R.id.buttons4Table);
@@ -32,6 +35,26 @@ public class MainActivity extends Activity {
 		table8buttons = (Button) findViewById(R.id.buttons8Table);
 		frame8buttons = (Button) findViewById(R.id.buttons8Frame);
 
+		listviewbuttons.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(getApplicationContext(),
+						ListViewActivity.class);
+				startActivity(intent);
+			}
+		});
+		
+		gridviewbuttons.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(getApplicationContext(),
+						GridViewActivity.class);
+				startActivity(intent);
+			}
+		});
+		
 		linear4buttons.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
